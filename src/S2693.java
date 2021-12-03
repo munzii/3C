@@ -16,7 +16,6 @@ public class S2693 {
 		int[] arr = new int[10];
 		int[] t = new int[n];
 		
-		
 		for(int i=0; i<n; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 			for(int j=0; j<10; j++) {
