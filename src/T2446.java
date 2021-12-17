@@ -20,9 +20,23 @@ public class T2446 {
 			for(int k=0; k<(2*n-1)-(2*i); k++) {
 				bw.write("*");
 			}
+			bw.write("\n");
 		}
 		
-		for(int i=0; i<n+1)
+		for(int i=0; i<n-1; i++) {
+			for(int j=1; j<(n-1)-i; j++) {
+				bw.write(" ");
+			}
+			
+			for(int k=0; k<3+(2*i); k++) {
+				bw.write("*");
+			}
+			bw.write("\n");
+		}
+		
+		br.close();
+		bw.flush();
+		bw.close();
 		
 	}
 
